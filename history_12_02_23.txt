@@ -1,0 +1,9 @@
+   0 mkdir /home/user /home/user/start
+   1 vi /home/user/start/1.txt
+   2 date >> /home/user/start/1.txt
+   3 vi /home/user/start/1.txt
+   4 mkdir /opt/task
+   5 cp /home/user/start/1.txt /opt/task/start.txt
+   6 ls -al / | grep -v '^d' | tail -4 >> /opt/task/start.txt
+   7 vi /opt/task/start.txt
+   8 history > history_12_02_23.txt
